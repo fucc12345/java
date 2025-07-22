@@ -1,9 +1,27 @@
 #EXTM3U
 #EXT-X-VERSION:3
 
-# Audio (Telugu)
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="tel",NAME="Telugu",DEFAULT=YES,AUTOSELECT=YES,URI="https://s26.nm-cdn5.top/files/80229866/a/15/15.m3u8"
+# Audio Tracks
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="ces",NAME="Czech",DEFAULT=NO,URI="https://s26.nm-cdn5.top/files/80229866/a/0/0.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="deu",NAME="German",DEFAULT=NO,URI="https://s26.nm-cdn5.top/files/80229866/a/1/1.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="eng",NAME="English",DEFAULT=YES,URI="https://s26.nm-cdn5.top/files/80229866/a/2/2.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="spa",NAME="Spanish 1",DEFAULT=NO,URI="https://s26.nm-cdn5.top/files/80229866/a/3/3.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="spa",NAME="Spanish 2",DEFAULT=NO,URI="https://s26.nm-cdn5.top/files/80229866/a/4/4.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="und",NAME="Unknown",DEFAULT=NO,URI="https://s26.nm-cdn5.top/files/80229866/a/5/5.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="fra",NAME="French",DEFAULT=NO,URI="https://s26.nm-cdn5.top/files/80229866/a/6/6.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="hin",NAME="Hindi",DEFAULT=NO,URI="https://s26.nm-cdn5.top/files/80229866/a/7/7.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="hun",NAME="Hungarian",DEFAULT=NO,URI="https://s26.nm-cdn5.top/files/80229866/a/8/8.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="ind",NAME="Indonesian",DEFAULT=NO,URI="https://s26.nm-cdn5.top/files/80229866/a/9/9.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="ita",NAME="Italian",DEFAULT=NO,URI="https://s26.nm-cdn5.top/files/80229866/a/10/10.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="jpn",NAME="Japanese",DEFAULT=NO,URI="https://s26.nm-cdn5.top/files/80229866/a/11/11.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="pol",NAME="Polish",DEFAULT=NO,URI="https://s26.nm-cdn5.top/files/80229866/a/12/12.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="por",NAME="Portuguese",DEFAULT=NO,URI="https://s26.nm-cdn5.top/files/80229866/a/13/13.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="tam",NAME="Tamil",DEFAULT=NO,URI="https://s26.nm-cdn5.top/files/80229866/a/14/14.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="tel",NAME="Telugu",DEFAULT=NO,URI="https://s26.nm-cdn5.top/files/80229866/a/15/15.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="tha",NAME="Thai",DEFAULT=NO,URI="https://s26.nm-cdn5.top/files/80229866/a/16/16.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="tur",NAME="Turkish",DEFAULT=NO,URI="https://s26.nm-cdn5.top/files/80229866/a/17/17.m3u8"
+#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="aac",LANGUAGE="ukr",NAME="Ukrainian",DEFAULT=NO,URI="https://s26.nm-cdn5.top/files/80229866/a/18/18.m3u8"
 
-# Video (720p) + reference to audio
+# Video Stream (720p) + Reference to audio group
 #EXT-X-STREAM-INF:BANDWIDTH=800000,RESOLUTION=1280x720,AUDIO="aac"
 https://s26.nm-cdn5.top/files/80229866/720p/720p.m3u8?in=a756aeef278944173fa177f566d4e7cc::355b0b618342955e19af224a01a58700::1753175373::ni
